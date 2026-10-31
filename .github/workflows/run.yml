@@ -2,8 +2,7 @@ name: AAA • Upstash Harvester
 
 on:
   schedule:
-    - cron: "0 8 * * 4"
-  workflow_dispatch:
+    - cron: "0 1,13 * * *":
 
 jobs:
   harvest:
